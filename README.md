@@ -1,4 +1,4 @@
-# Mini Project 1 Praktikum Pemrograman Aplikasi Bergerak
+<img width="594" height="731" alt="image" src="https://github.com/user-attachments/assets/160aabf4-1ac2-47aa-bdd1-d35b17908848" /><img width="594" height="731" alt="image" src="https://github.com/user-attachments/assets/160aabf4-1ac2-47aa-bdd1-d35b17908848" /># Mini Project 1 Praktikum Pemrograman Aplikasi Bergerak
 
 Nama: Indah Putri Lestari
 
@@ -173,6 +173,37 @@ Fitur ini membantu pengguna melihat kondisi keuangan secara menyeluruh tanpa har
 
 ## Widget yang Digunakan
 
+Struktur dibawah ini dibuat untuk memisahkan antara tampilan (UI), logic, dan model data agar kode lebih mudah dibaca, dikembangkan, dan dikelola.
 
+<img width="594" height="731" alt="image" src="https://github.com/user-attachments/assets/e63ebbcd-f938-4f73-95c1-8ad411570b01" />
 
+1. Scaffold: sebagai kerangka utama setiap halaman yang menyediakan AppBar, body, dan FloatingActionButton.
+2. AppBar: digunakan untuk menampilkan judul halaman seperti “My Pink Finance” dan “Tambah Transaksi”.
+3. SafeArea: menjaga tampilan agar tidak tertutup notch atau status bar.
+4. SingleChildScrollView: membuat seluruh halaman Home bisa discroll.
+5. TextFormField: digunakan untuk input data seperti jumlah nominal, keterangan, dan catatan tambahan. Widget ini juga mendukung validasi input.
+6. DropdownButtonFormField: digunakan untuk memilih tipe transaksi (Pemasukan/Pengeluaran) dan kategori transaksi.
+7. ElevatedButton
+
+Digunakan sebagai tombol untuk menyimpan data transaksi.
+
+7. ListView
+
+Digunakan untuk menampilkan daftar transaksi secara scrollable.
+
+8. Card dan Container
+
+Digunakan untuk membungkus dan mengatur tata letak setiap item transaksi agar tampil lebih rapi.
+
+9. Icon dan IconButton
+
+Digunakan untuk menampilkan ikon kategori serta tombol edit dan hapus.
+
+10. FloatingActionButton
+
+Digunakan sebagai tombol tambah transaksi yang mengarahkan ke halaman input.
+
+11. showDatePicker
+
+Digunakan untuk memilih tanggal transaksi melalui tampilan kalender.
 
