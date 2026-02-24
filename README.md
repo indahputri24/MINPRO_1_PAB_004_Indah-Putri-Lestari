@@ -173,37 +173,45 @@ Fitur ini membantu pengguna melihat kondisi keuangan secara menyeluruh tanpa har
 
 ## Widget yang Digunakan
 
-Struktur dibawah ini dibuat untuk memisahkan antara tampilan (UI), logic, dan model data agar kode lebih mudah dibaca, dikembangkan, dan dikelola.
-
-<img width="594" height="731" alt="image" src="https://github.com/user-attachments/assets/e63ebbcd-f938-4f73-95c1-8ad411570b01" />
+### A. Core Flutter Widgets
 
 1. Scaffold: sebagai kerangka utama setiap halaman yang menyediakan AppBar, body, dan FloatingActionButton.
 2. AppBar: digunakan untuk menampilkan judul halaman seperti “My Pink Finance” dan “Tambah Transaksi”.
 3. SafeArea: menjaga tampilan agar tidak tertutup notch atau status bar.
 4. SingleChildScrollView: membuat seluruh halaman Home bisa discroll.
-5. TextFormField: digunakan untuk input data seperti jumlah nominal, keterangan, dan catatan tambahan. Widget ini juga mendukung validasi input.
+5. TextFormField: digunakan untuk input data seperti jumlah nominal, keterangan, dan catatan tambahan dengan validasi input.
 6. DropdownButtonFormField: digunakan untuk memilih tipe transaksi (Pemasukan/Pengeluaran) dan kategori transaksi.
-7. ElevatedButton
+7. ElevatedButton: sebagai tombol untuk menyimpan data transaksi.
+8. Container: digunakan untuk styling seperti warna, padding, border radius, dan shadow pada kartu transaksi dan ringkasan.
+9. Icon dan IconButton: digunakan untuk menampilkan ikon kategori serta tombol edit dan hapus transaksi.
+10. FloatingActionButton: sebagai tombol tambah transaksi di halaman utama yang mengarahkan ke halaman input.
+11. showDatePicker: digunakan untuk memilih tanggal transaksi melalui tampilan kalender.
+12. ListView.builder: menampilkan daftar transaksi berdasarkan tanggal yang dipilih.
+13. CircleAvatar: menampilkan ikon kategori transaksi dalam bentuk lingkaran.
+14. Column: menyusun komponen seperti header, ringkasan, kalender, dan list secara vertikal.
 
-Digunakan sebagai tombol untuk menyimpan data transaksi.
+### B. GetX Widgets
 
-7. ListView
+Digunakan untuk mengatur state dan navigasi aplikasi.
 
-Digunakan untuk menampilkan daftar transaksi secara scrollable.
+1. GetMaterialApp: mengaktifkan fitur GetX dalam aplikasi.
+2. Obx: membuat tampilan otomatis berubah saat data di controller berubah.
+3. GetxController: menyimpan data transaksi dan menghitung total pemasukan, pengeluaran, serta selisih.
+4: Get.to(): digunakan untuk berpindah halaman tanpa perlu context.
 
-8. Card dan Container
+### C. Widget dari Package Eksternal
 
-Digunakan untuk membungkus dan mengatur tata letak setiap item transaksi agar tampil lebih rapi.
+Dalam aplikasi ini terdapat TableCalendar, yang digunakan untuk menampilkan kalender interaktif. Kalender ini pengguna dapat memilih tanggal tertentu untuk memfilter transaksi harian.
 
-9. Icon dan IconButton
+### D. Custom Widget
 
-Digunakan untuk menampilkan ikon kategori serta tombol edit dan hapus.
+<img width="594" height="731" alt="image" src="https://github.com/user-attachments/assets/e63ebbcd-f938-4f73-95c1-8ad411570b01" />
 
-10. FloatingActionButton
+Struktur tersebut dibuat untuk memisahkan antara tampilan (UI), logic, dan model data agar kode lebih mudah dibaca, dikembangkan, dan dikelola. Isi di dalam folder widget sebagai berikut:
 
-Digunakan sebagai tombol tambah transaksi yang mengarahkan ke halaman input.
-
-11. showDatePicker
-
-Digunakan untuk memilih tanggal transaksi melalui tampilan kalender.
-
+1. Header: menampilkan judul halaman utama.
+2. RangeTanggal: memilih rentang tanggal filter.
+3. RingkasanKeseluruhan: menampilkan total saldo, pemasukan, dan pengeluaran seluruh transaksi.
+4. Kalendar: pembungkus TableCalendar agar lebih modular.
+5. RingkasanHarian: menampilkan pemasukan, pengeluaran, dan selisih berdasarkan tanggal dipilih.
+6. ListTransaksi: menampilkan daftar transaksi lengkap dengan tombol edit dan hapus.
