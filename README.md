@@ -1,4 +1,4 @@
-<img width="594" height="731" alt="image" src="https://github.com/user-attachments/assets/160aabf4-1ac2-47aa-bdd1-d35b17908848" /><img width="594" height="731" alt="image" src="https://github.com/user-attachments/assets/160aabf4-1ac2-47aa-bdd1-d35b17908848" /># Mini Project 1 Praktikum Pemrograman Aplikasi Bergerak
+# Mini Project 1 Praktikum Pemrograman Aplikasi Bergerak
 
 Nama: Indah Putri Lestari
 
