@@ -179,7 +179,17 @@ Fitur ini membantu pengguna melihat kondisi keuangan secara menyeluruh tanpa har
 
 ## Widget yang Digunakan
 
-### A. Core Flutter Widgets
+Pada aplikasi My Pink Finance, digunakan dua jenis widget utama yaitu StatelessWidget dan StatefulWidget.
+
+### StatelessWidget
+
+Digunakan pada halaman HomePage dan widget-widget seperti Header, RingkasanKeseluruhan, Kalendar, dan ListTransaksi. HomePage menggunakan StatelessWidget karena pengelolaan data tidak dilakukan langsung di dalam halaman tersebut, melainkan melalui GetX Controller. Perubahan data ditangani secara reaktif menggunakan Obx(), sehingga tidak memerlukan setState().
+
+### StatefulWidget
+
+Digunakan pada halaman AddPage (Tambah Transaksi). Halaman ini menggunakan StatefulWidget karena terdapat input form seperti jumlah, keterangan, tanggal, tipe, dan kategori yang dapat berubah saat pengguna berinteraksi. Perubahan ini membutuhkan state lokal yang dikontrol menggunakan setState().
+
+### Core Flutter Widgets
 
 1. Scaffold: sebagai kerangka utama setiap halaman yang menyediakan AppBar, body, dan FloatingActionButton.
 2. AppBar: digunakan untuk menampilkan judul halaman seperti “My Pink Finance” dan “Tambah Transaksi”.
@@ -196,7 +206,7 @@ Fitur ini membantu pengguna melihat kondisi keuangan secara menyeluruh tanpa har
 13. CircleAvatar: menampilkan ikon kategori transaksi dalam bentuk lingkaran.
 14. Column: menyusun komponen seperti header, ringkasan, kalender, dan list secara vertikal.
 
-### B. GetX Widgets
+### GetX Widgets
 
 Digunakan untuk mengatur state dan navigasi aplikasi.
 
@@ -205,11 +215,11 @@ Digunakan untuk mengatur state dan navigasi aplikasi.
 3. GetxController: menyimpan data transaksi dan menghitung total pemasukan, pengeluaran, serta selisih.
 4. Get.to(): digunakan untuk berpindah halaman tanpa perlu context.
 
-### C. Widget dari Package Eksternal
+### Widget dari Package Eksternal
 
 Dalam aplikasi ini terdapat TableCalendar, yang digunakan untuk menampilkan kalender interaktif. Kalender ini pengguna dapat memilih tanggal tertentu untuk memfilter transaksi harian.
 
-### D. Custom Widget
+### Custom Widgets
 
 <img width="594" height="731" alt="image" src="https://github.com/user-attachments/assets/e63ebbcd-f938-4f73-95c1-8ad411570b01" />
 
