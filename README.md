@@ -4,7 +4,7 @@ Nama: Indah Putri Lestari
 
 NIM: 2409116004
 
-## Deskripsi Aplikasi Catatan Keuangan (MY PINK FINCARE)
+## A. Deskripsi Aplikasi Catatan Keuangan (MY PINK FINCARE)
 
 Aplikasi Catatan Keuangan merupakan aplikasi mobile berbasis Flutter yang dirancang untuk membantu pengguna dalam mencatat dan mengelola keuangan pribadi secara praktis dan terstruktur. Aplikasi ini memfasilitasi pencatatan pemasukan dan pengeluaran harian sehingga pengguna dapat memantau kondisi keuangan mereka dengan lebih terkontrol.
 
@@ -14,7 +14,7 @@ Pada Aplikasi ini pengguna dapat:
 3. Melihat ringkasan keuangan hari ini
 4. Melihat total keseluruhan saldo
 
-## Fitur Aplikasi
+## B. Fitur Aplikasi
 
 Aplikasi Catatan Keuangan ini memiliki beberapa fitur utama sebagai berikut:
 
@@ -177,19 +177,19 @@ Bagian Total Keseluruhan Keuangan menampilkan rekap seluruh transaksi dalam rent
 
 Fitur ini membantu pengguna melihat kondisi keuangan secara menyeluruh tanpa harus menghitung satu per satu transaksi yang ada.
 
-## Widget yang Digunakan
+## C. Widget yang Digunakan
 
 Pada aplikasi My Pink Finance, digunakan dua jenis widget utama yaitu StatelessWidget dan StatefulWidget.
 
-### StatelessWidget
+### 1. StatelessWidget
 
 Digunakan pada halaman HomePage dan widget-widget seperti Header, RingkasanKeseluruhan, Kalendar, dan ListTransaksi. HomePage menggunakan StatelessWidget karena pengelolaan data tidak dilakukan langsung di dalam halaman tersebut, melainkan melalui GetX Controller. Perubahan data ditangani secara reaktif menggunakan Obx(), sehingga tidak memerlukan setState().
 
-### StatefulWidget
+### 2. StatefulWidget
 
 Digunakan pada halaman AddPage (Tambah Transaksi). Halaman ini menggunakan StatefulWidget karena terdapat input form seperti jumlah, keterangan, tanggal, tipe, dan kategori yang dapat berubah saat pengguna berinteraksi. Perubahan ini membutuhkan state lokal yang dikontrol menggunakan setState().
 
-### Core Flutter Widgets
+### 3. Core Flutter Widgets
 
 1. Scaffold: sebagai kerangka utama setiap halaman yang menyediakan AppBar, body, dan FloatingActionButton.
 2. AppBar: digunakan untuk menampilkan judul halaman seperti “My Pink Finance” dan “Tambah Transaksi”.
@@ -206,7 +206,7 @@ Digunakan pada halaman AddPage (Tambah Transaksi). Halaman ini menggunakan State
 13. CircleAvatar: menampilkan ikon kategori transaksi dalam bentuk lingkaran.
 14. Column: menyusun komponen seperti header, ringkasan, kalender, dan list secara vertikal.
 
-### GetX Widgets
+### 4. GetX Widgets
 
 Digunakan untuk mengatur state dan navigasi aplikasi.
 
@@ -215,11 +215,11 @@ Digunakan untuk mengatur state dan navigasi aplikasi.
 3. GetxController: menyimpan data transaksi dan menghitung total pemasukan, pengeluaran, serta selisih.
 4. Get.to(): digunakan untuk berpindah halaman tanpa perlu context.
 
-### Widget dari Package Eksternal
+### 5. Widget dari Package Eksternal
 
 Dalam aplikasi ini terdapat TableCalendar, yang digunakan untuk menampilkan kalender interaktif. Kalender ini pengguna dapat memilih tanggal tertentu untuk memfilter transaksi harian.
 
-### Custom Widgets
+### 6. Custom Widgets
 
 <img width="594" height="731" alt="image" src="https://github.com/user-attachments/assets/e63ebbcd-f938-4f73-95c1-8ad411570b01" />
 
