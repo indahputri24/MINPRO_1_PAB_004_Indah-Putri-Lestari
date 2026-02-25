@@ -19,14 +19,15 @@ Pada Aplikasi ini pengguna dapat:
 Aplikasi Catatan Keuangan ini memiliki beberapa fitur utama sebagai berikut:
 
 ### 1. Tambah Data Transaksi (Create)
+
+<img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/4224c335-0163-471f-ace5-a66ea2ffd0c1" />
+
 Pengguna dapat menambahkan data transaksi berupa pemasukan atau pengeluaran. Fitur ini memudahkan pengguna untuk mencatat setiap aktivitas keuangan secara langsung.
 Dalam satu form terdapat enam input, seperti:
 
 - 4 TextField, yaitu: Jumlah nominal, Keterangan, Tanggal, dan Catatan Tambahan (Opsional).
   
 - 2 DropdownButtonFormField, yaitu Tipe Pemasukan/Pengeluaran dan Kategori transaksi.
-
-<img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/4224c335-0163-471f-ace5-a66ea2ffd0c1" />
 
 #### Validasi Input Setiap Kolom
 
@@ -52,50 +53,51 @@ Beberapa kondisi validasi yang diterapkan adalah:
 
 
 ##### b. Keterangan
+
+<img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/307406fa-a20f-4a4e-9482-d2aeeefba4e3" />
  
 Kolom Keterangan memiliki validasi untuk memastikan pengguna tidak mengosongkan deskripsi transaksi.
 Jika kolom ini tidak diisi, sistem akan menampilkan pesan: “Keterangan wajib diisi”.
 
 Validasi ini bertujuan agar setiap transaksi memiliki penjelasan yang jelas, sehingga pengguna dapat memahami tujuan atau detail pengeluaran maupun pemasukan saat melihat riwayat transaksi di kemudian hari.
 
-<img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/307406fa-a20f-4a4e-9482-d2aeeefba4e3" />
-
 ##### C. Tanggal
-
-Pada kolom Tanggal, aplikasi menggunakan fitur date picker untuk memilih tanggal transaksi melalui tampilan kalender. Fitur ini membantu memastikan format tanggal selalu benar dan menghindari kesalahan input manual.
 
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/f1fd99a4-cff3-434e-954c-7e17e00427f5" />
 
+Pada kolom Tanggal, aplikasi menggunakan fitur date picker untuk memilih tanggal transaksi melalui tampilan kalender. Fitur ini membantu memastikan format tanggal selalu benar dan menghindari kesalahan input manual.
+
 ##### d. Tipe
 
-Pada kolom Tipe, pengguna dapat memilih jenis transaksi melalui menu dropdown yang tersedia, yaitu: Pengeluaran atau Pemasukan.
-Fitur ini berfungsi untuk mengelompokkan transaksi berdasarkan arus kas masuk atau keluar. Dengan pemisahan ini, sistem dapat menghitung total pemasukan dan total pengeluaran secara terpisah sehingga saldo akhir dapat ditampilkan dengan lebih akurat.
-Penggunaan dropdown juga mencegah kesalahan input karena pengguna hanya dapat memilih opsi yang telah disediakan.
-
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/8c01dbfc-1b64-47b6-b04c-46e53e7dcbe4" />
+
+Pada kolom Tipe, pengguna dapat memilih jenis transaksi melalui menu dropdown yang tersedia, yaitu: Pengeluaran atau Pemasukan.
+Fitur ini berfungsi untuk mengelompokkan transaksi berdasarkan arus kas masuk atau keluar. Dengan pemisahan ini, sistem dapat menghitung total pemasukan dan total pengeluaran secara terpisah sehingga saldo akhir dapat ditampilkan dengan lebih akurat. Penggunaan dropdown juga mencegah kesalahan input karena pengguna hanya dapat memilih opsi yang telah disediakan.
 
 ##### e. Kategori
 
 Kolom Kategori digunakan untuk mengelompokkan transaksi sesuai jenisnya.
 Kategori akan menyesuaikan dengan tipe transaksi yang dipilih:
 - Jika memilih Pemasukan, kategori yang tersedia seperti: Gaji, Bonus, Freelance, Hadiah
+
+  <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/4668c779-7bac-4918-8f4b-e341a72eefa2" />
+  
 - Jika memilih Pengeluaran, kategori yang tersedia seperti: Makan, Transport, Belanja, Hiburan
+  
+  <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/ff45463d-e44a-4275-a716-c64290f1c7f0" />
 
 Fitur ini membantu pengguna mengelompokkan transaksi agar lebih terstruktur dan memudahkan dalam melihat pola pemasukan maupun pengeluaran.
-
-<img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/4668c779-7bac-4918-8f4b-e341a72eefa2" />
-
-<img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/ff45463d-e44a-4275-a716-c64290f1c7f0" />
 
 
 ##### f. Catatan Tambahan (Opsional)
 
-Kolom Catatan Tambahan digunakan untuk menuliskan informasi tambahan terkait transaksi. Field ini bersifat opsional, sehingga pengguna boleh mengisinya atau mengosongkannya tanpa mempengaruhi proses penyimpanan data.
-
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/8960dc1b-511a-41d0-9cbf-d52355d9e585" />
 
+Kolom Catatan Tambahan digunakan untuk menuliskan informasi tambahan terkait transaksi. Field ini bersifat opsional, sehingga pengguna boleh mengisinya atau mengosongkannya tanpa mempengaruhi proses penyimpanan data.
 
 ### 2. Tampilkan Data Transaksi (Read)
+
+<img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/e613525a-96a7-4e95-887f-6b6513b265c1" />
 
 Halaman utama menampilkan data transaksi dalam bentuk daftar (list)
 Di bagian atas terdapat tampilan kalender yang menunjukkan bulan dan tanggal aktif.
@@ -111,44 +113,45 @@ Di sisi kanan terdapat tombol:
 - Edit untuk mengubah data transaksi
 - Hapus untuk menghapus transaksi
 
-<img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/e613525a-96a7-4e95-887f-6b6513b265c1" />
-
-
 ### 3. Hapus Data Transaksi (Delete)
 
 #### Sebelum Hapus Data Transaksi
 
-Disini saya ingin menghapus data pemasukan Freelance dengan nominal Rp700000.
-
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/38dac631-e270-40e1-8af5-f73f6e53ba0c" />
+
+Disini saya ingin menghapus data pemasukan Freelance dengan nominal Rp700000.
 
 #### Sesudah Hapus Data Transaksi
 
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/a4c576e1-cd82-46de-96f0-c2a9e768bfe9" />
 
+Data pemasukan berhasil dihapus.
+
 ### 4. Edit Data Transaksi (Update)
 
 #### Sebelum Edit data
 
-Disini saya ingin mengubah data pengeluaran transaki Gacoan.
-
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/78955550-3326-4e54-9427-9e5a9d1bb677" />
+
+Disini saya ingin mengubah data pengeluaran transaki Gacoan.
 
 #### Proses Edit data
 
-Lalu saya mengedit data pada kolom jumlah nominal, keterangan transaksi, dan ada catatan tambahan.
-
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/694df667-2f85-4701-82c6-efb5f7e90b55" />
 
+Lalu saya mengedit data pada kolom jumlah nominal, keterangan transaksi, dan ada catatan tambahan.
+
 #### Sesudah Edit data
+
+<img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/f0a6a409-3f1a-43e3-a0f8-9ade94842f0f" />
 
 - Jumlah nominal dari Rp20000 menjadi Rp50000
 - Keterangan dari Gacoan menjadi Mie Gacoan
 - Catatan Tambahan yang awalnya kosong menjadi lokasi M.Yamin
 
-<img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/f0a6a409-3f1a-43e3-a0f8-9ade94842f0f" />
-
 ### 4. Ringkasan Keuangan Hari Ini
+
+<img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/c3d790c6-9600-415d-862c-7f441eb82e00" />
 
 Bagian Ringkasan Hari Ini menampilkan total transaksi pada tanggal yang dipilih, yang terdiri dari:
 - Pemasukan hari ini: total seluruh uang masuk hari ini
@@ -157,10 +160,9 @@ Bagian Ringkasan Hari Ini menampilkan total transaksi pada tanggal yang dipilih,
 
 Fitur ini membantu pengguna melihat kondisi keuangan harian secara cepat tanpa perlu menghitung secara manual.
 
-<img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/c3d790c6-9600-415d-862c-7f441eb82e00" />
-
-
 ### 5. Total Keseluruhan Keuangan
+
+<img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/261dee81-2246-4152-9b9e-8f8783b4aca8" />
 
 Bagian Total Keseluruhan Keuangan menampilkan rekap seluruh transaksi dalam rentang tanggal yang dipilih, yang terdiri dari:
 - Total: saldo akhir (hasil pemasukan dikurangi pengeluaran)
@@ -168,8 +170,6 @@ Bagian Total Keseluruhan Keuangan menampilkan rekap seluruh transaksi dalam rent
 - Pengeluaran: jumlah seluruh uang keluar
 
 Fitur ini membantu pengguna melihat kondisi keuangan secara menyeluruh tanpa harus menghitung satu per satu transaksi yang ada.
-
-<img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/261dee81-2246-4152-9b9e-8f8783b4aca8" />
 
 ## Widget yang Digunakan
 
