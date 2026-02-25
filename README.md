@@ -18,6 +18,12 @@ Pada Aplikasi ini pengguna dapat:
 
 Aplikasi Catatan Keuangan ini memiliki beberapa fitur utama sebagai berikut:
 
+<img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/25baef67-b0d3-4deb-9ad3-5c47b708fbe9" />
+
+Di halaman Home Page terdapat tampilan utama berupa header, ringkasan keuangan, kalender, dan daftar transaksi. Di bagian kanan bawah halaman terdapat ikon tambah (+) berupa FloatingActionButton.
+
+Jika pengguna ingin menambahkan transaksi baru, pengguna dapat mengklik ikon tambah tersebut. Setelah ikon diklik, aplikasi akan berpindah ke halaman Tambah Transaksi menggunakan navigasi GetX.
+
 ### 1. Tambah Data Transaksi (Create)
 
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/4224c335-0163-471f-ace5-a66ea2ffd0c1" />
@@ -197,7 +203,7 @@ Digunakan untuk mengatur state dan navigasi aplikasi.
 1. GetMaterialApp: mengaktifkan fitur GetX dalam aplikasi.
 2. Obx: membuat tampilan otomatis berubah saat data di controller berubah.
 3. GetxController: menyimpan data transaksi dan menghitung total pemasukan, pengeluaran, serta selisih.
-4: Get.to(): digunakan untuk berpindah halaman tanpa perlu context.
+4. Get.to(): digunakan untuk berpindah halaman tanpa perlu context.
 
 ### C. Widget dari Package Eksternal
 
