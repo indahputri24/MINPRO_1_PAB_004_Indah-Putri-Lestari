@@ -45,21 +45,21 @@ Kolom Jumlah memiliki sistem validasi untuk memastikan data yang dimasukkan peng
 
 Beberapa kondisi validasi yang diterapkan adalah:
 
-- Tidak boleh kosong.
+- Tidak boleh kosong
 
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/df5b762f-465e-4679-9529-28e0f007619f" />
 
 Jika pengguna tidak mengisi kolom jumlah, maka akan muncul pesan: "Jumlah wajib diisi".
 
 
-- Hanya menerima angka.
+- Hanya menerima angka
 
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/28385184-7aa1-4d7c-af89-8e90bdd5df53" />
 
 Jika pengguna memasukkan huruf atau karakter selain angka, maka sistem akan menampilkan pesan: "Jumlah hanya boleh angka".
 
 
-- Batas inputan nilai maksimal.
+- Batas inputan nilai maksimal
 
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/154cb1c9-0969-45e4-a1c5-5a873c1e21d4" />
 
