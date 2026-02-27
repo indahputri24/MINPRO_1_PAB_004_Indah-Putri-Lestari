@@ -16,7 +16,7 @@ Pada Aplikasi ini pengguna dapat:
 3. Melihat ringkasan keuangan hari ini
 4. Melihat total keseluruhan saldo
 
-## B. Fitur Aplikasi
+## B. Fitur Aplikasi Catatan Keuangan Pribadi (MY PINK FINCARE)
 
 Aplikasi Catatan Keuangan ini memiliki beberapa fitur utama sebagai berikut:
 
