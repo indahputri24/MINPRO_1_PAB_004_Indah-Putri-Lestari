@@ -129,13 +129,13 @@ Di sisi kanan terdapat tombol:
 
 ### 3. Hapus Data Transaksi (Delete)
 
-#### Sebelum Hapus Data Transaksi
+- Sebelum Hapus Data Transaksi
 
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/38dac631-e270-40e1-8af5-f73f6e53ba0c" />
 
 Disini saya ingin menghapus data pemasukan Freelance dengan nominal Rp700000.
 
-#### Sesudah Hapus Data Transaksi
+- Sesudah Hapus Data Transaksi
 
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/a4c576e1-cd82-46de-96f0-c2a9e768bfe9" />
 
@@ -143,19 +143,19 @@ Data pemasukan freelance yang terdouble berhasil dihapus.
 
 ### 4. Edit Data Transaksi (Update)
 
-#### Sebelum Edit data
+- Sebelum Edit data
 
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/78955550-3326-4e54-9427-9e5a9d1bb677" />
 
 Disini saya ingin mengubah data pengeluaran transaksi Gacoan.
 
-#### Proses Edit data
+- Proses Edit data
 
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/694df667-2f85-4701-82c6-efb5f7e90b55" />
 
 Lalu saya mengedit data pada kolom jumlah nominal, keterangan transaksi, dan ada catatan tambahan.
 
-#### Sesudah Edit data
+- Sesudah Edit data
 
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/f0a6a409-3f1a-43e3-a0f8-9ade94842f0f" />
 
