@@ -120,6 +120,7 @@ Setiap transaksi ditampilkan dalam bentuk kartu (card) yang berisi:
 - Kategori transaksi
 - Nominal (ditampilkan dengan tanda + untuk pemasukan dan – untuk pengeluaran)
 - Ikon sesuai jenis transaksi
+- Catatan tambahan yang bersifat opsional
 
 Di sisi kanan terdapat tombol:
 - Edit untuk mengubah data transaksi
