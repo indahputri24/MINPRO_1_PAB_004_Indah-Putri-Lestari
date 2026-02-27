@@ -4,9 +4,11 @@ Nama: Indah Putri Lestari
 
 NIM: 2409116004
 
-## A. Deskripsi Aplikasi Catatan Keuangan (MY PINK FINCARE)
+Kelas: A
 
-Aplikasi Catatan Keuangan merupakan aplikasi mobile berbasis Flutter yang dirancang untuk membantu pengguna dalam mencatat dan mengelola keuangan pribadi secara praktis dan terstruktur. Aplikasi ini memfasilitasi pencatatan pemasukan dan pengeluaran harian sehingga pengguna dapat memantau kondisi keuangan mereka dengan lebih terkontrol.
+## A. Deskripsi Aplikasi Catatan Keuangan Pribadi (MY PINK FINCARE)
+
+Aplikasi Catatan Keuangan Pribadi merupakan aplikasi mobile berbasis Flutter yang dirancang untuk membantu pengguna dalam mencatat dan mengelola keuangan pribadi secara praktis dan terstruktur. Aplikasi ini memfasilitasi pencatatan pemasukan dan pengeluaran harian sehingga pengguna dapat memantau kondisi keuangan mereka dengan lebih terkontrol.
 
 Pada Aplikasi ini pengguna dapat:
 1. Menambahkan data pemasukan
@@ -43,19 +45,25 @@ Kolom Jumlah memiliki sistem validasi untuk memastikan data yang dimasukkan peng
 
 Beberapa kondisi validasi yang diterapkan adalah:
 
-1. Tidak boleh kosong. Jika pengguna tidak mengisi kolom jumlah, maka akan muncul pesan: "Jumlah wajib diisi"
+1. Tidak boleh kosong.
 
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/df5b762f-465e-4679-9529-28e0f007619f" />
 
+Jika pengguna tidak mengisi kolom jumlah, maka akan muncul pesan: "Jumlah wajib diisi".
 
-2. Hanya menerima angka. Jika pengguna memasukkan huruf atau karakter selain angka, maka sistem akan menampilkan pesan: "Jumlah hanya boleh angka"
+
+2. Hanya menerima angka.
 
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/28385184-7aa1-4d7c-af89-8e90bdd5df53" />
 
+Jika pengguna memasukkan huruf atau karakter selain angka, maka sistem akan menampilkan pesan: "Jumlah hanya boleh angka".
 
-3. Batas inputan nilai maksimal. Jika nominal yang dimasukkan terlalu besar dan tidak wajar (misalnya miliaran atau triliunan), maka sistem akan menampilkan pesan: "Jumlah terlalu besar, tidak wajar"
+
+3. Batas inputan nilai maksimal.
 
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/154cb1c9-0969-45e4-a1c5-5a873c1e21d4" />
+
+Jika nominal yang dimasukkan terlalu besar dan tidak wajar (misalnya miliaran atau triliunan), maka sistem akan menampilkan pesan: "Jumlah terlalu besar, tidak wajar".
 
 
 ##### b. Keterangan
@@ -77,8 +85,8 @@ Pada kolom Tanggal, aplikasi menggunakan fitur date picker untuk memilih tanggal
 
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/8c01dbfc-1b64-47b6-b04c-46e53e7dcbe4" />
 
-Pada kolom Tipe, pengguna dapat memilih jenis transaksi melalui menu dropdown yang tersedia, yaitu: Pengeluaran atau Pemasukan.
-Fitur ini berfungsi untuk mengelompokkan transaksi berdasarkan arus kas masuk atau keluar. Dengan pemisahan ini, sistem dapat menghitung total pemasukan dan total pengeluaran secara terpisah sehingga saldo akhir dapat ditampilkan dengan lebih akurat. Penggunaan dropdown juga mencegah kesalahan input karena pengguna hanya dapat memilih opsi yang telah disediakan.
+Pada kolom Tipe, pengguna dapat memilih jenis transaksi melalui menu dropdown yang tersedia, yaitu: Pengeluaran atau Pemasukan, untuk mencegah kesalahan input karena pengguna hanya dapat memilih opsi yang telah disediakan.
+Fitur ini berfungsi untuk mengelompokkan transaksi berdasarkan arus kas masuk atau keluar. Dengan pemisahan ini, sistem dapat menghitung total pemasukan dan total pengeluaran secara terpisah sehingga saldo akhir dapat ditampilkan dengan lebih akurat.
 
 ##### e. Kategori
 
@@ -131,7 +139,7 @@ Disini saya ingin menghapus data pemasukan Freelance dengan nominal Rp700000.
 
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/a4c576e1-cd82-46de-96f0-c2a9e768bfe9" />
 
-Data pemasukan berhasil dihapus.
+Data pemasukan freelance yang terdouble berhasil dihapus.
 
 ### 4. Edit Data Transaksi (Update)
 
@@ -139,7 +147,7 @@ Data pemasukan berhasil dihapus.
 
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/78955550-3326-4e54-9427-9e5a9d1bb677" />
 
-Disini saya ingin mengubah data pengeluaran transaki Gacoan.
+Disini saya ingin mengubah data pengeluaran transaksi Gacoan.
 
 #### Proses Edit data
 
