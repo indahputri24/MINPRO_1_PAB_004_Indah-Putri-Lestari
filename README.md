@@ -70,10 +70,8 @@ Jika nominal yang dimasukkan terlalu besar dan tidak wajar (misalnya miliaran at
 
 <img width="3200" height="2000" alt="image" src="https://github.com/user-attachments/assets/307406fa-a20f-4a4e-9482-d2aeeefba4e3" />
  
-Kolom Keterangan memiliki validasi untuk memastikan pengguna tidak mengosongkan deskripsi transaksi.
+Kolom Keterangan memiliki validasi untuk memastikan pengguna tidak mengosongkan deskripsi transaksi karena setiap transaksi memiliki penjelasan yang jelas.
 Jika kolom ini tidak diisi, sistem akan menampilkan pesan: “Keterangan wajib diisi”.
-
-Validasi ini bertujuan agar setiap transaksi memiliki penjelasan yang jelas, sehingga pengguna dapat memahami tujuan atau detail pengeluaran maupun pemasukan saat melihat riwayat transaksi di kemudian hari.
 
 ##### C. Tanggal
 
